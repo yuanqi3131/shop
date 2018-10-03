@@ -1,0 +1,24 @@
+.content{
+  width:94%;
+  margin:20rpx auto;
+  background-color:white;
+  height:450rpx;
+  font-size:33rpx;
+  text-align:center;
+}
+.contentImg{
+  width:100%;
+  height:330rpx;
+  margin-bottom:30rpx;
+}
+
+.category{
+  background-color:#E64D1A;
+  color:white;
+  font-size:30rpx;
+  display:inline-block;
+  width:100rpx;
+  height:40rpx;
+  text-align:center;
+  margin-right:20rpx;
+}

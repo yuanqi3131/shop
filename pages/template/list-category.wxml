@@ -1,0 +1,9 @@
+<template name="categoryItem">
+<view>
+<text class='title'>{{title}}</text>
+<view class='shop' wx:for='{{contentList}}' wx:key='{{index}}'>
+<image class='shopImg' src='{{item.img}}'></image>
+<text class='shopName'>{{item.name}}</text>
+</view>
+</view>
+</template>

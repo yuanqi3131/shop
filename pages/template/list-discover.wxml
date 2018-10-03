@@ -1,0 +1,7 @@
+<template name="discoverItem">
+ <view class='content'>
+<image class='contentImg'  src='{{img}}'></image>
+<view class='category'>{{tag}}</view>
+<label>{{descript}}</label>
+</view>
+</template>

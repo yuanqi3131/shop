@@ -1,0 +1,47 @@
+<view>
+  <view class='searchGoodbg'>
+    <view  class='searchGood'>
+    <image class="sousuo" src='../../static/sousuo.svg'></image>
+    <text class='searchText'>搜索商品</text>
+    </view>
+  </view>
+  <swiper indicator-dots autoplay circular indicator-color="rgb(195,195,195)" indicator-active-color="white">
+  <swiper-item><image class="swiperImg" src='../../static/image1.jpg'></image>
+  </swiper-item>
+   <swiper-item><image class="swiperImg"   src='../../static/image2.jpg'></image>
+  </swiper-item>
+   <swiper-item><image class="swiperImg"  src='../../static/image3.jpg'></image>
+  </swiper-item>
+   <swiper-item><image class="swiperImg" src='../../static/image4.jpg'></image>
+  </swiper-item>
+  </swiper>
+<view class="imgNav" >
+<image class='imgIcon' src='../../static/shouji.svg'></image>
+<text>手机</text>
+</view>
+<view class="imgNav" >
+<image class='imgIcon' src='../../static/dianshi.svg'></image>
+<text>电视</text>
+</view>
+<view class="imgNav" >
+<image class='imgIcon' src='../../static/diannao.svg'></image>
+<text>电脑</text>
+</view>
+<view class="imgNav">
+<image class='imgIcon' src='../../static/chaoshi.svg'></image>
+<text>生态链</text>
+</view>
+<view class="imgNav"> 
+<image class='imgIcon' src='../../static/zuanshi.svg'></image>
+<text>新品</text>
+</view>
+<view class='line'></view>
+<view class='threeImgs'>
+<image class='oneImg' src='../../static/max3.jpg'></image>
+<image class='twoImg'  src='../../static/dianfanbao.jpg'></image>
+<image class='threeImg' src='../../static/saodi.jpg'></image>
+</view>
+<view class='line'></view>
+<image src='../../static/miaosha.jpg' style='width:100%;height:340rpx;'></image>
+</view>
+

@@ -1,0 +1,40 @@
+@import '/pages/template/list-discover.wxss';
+.nav{
+display:flex;
+flex-direction:column;
+float: left;
+font-size: 30rpx;
+color: #d9d9d9;
+width: 180rpx;
+text-align: center;
+margin-top:50rpx;
+border-right: 1px solid #E0E0E0;
+padding-bottom:20rpx;
+}
+.nav:last-child{
+  border-right:0px;
+}
+.navImage{
+  height: 60rpx;
+  width: 60rpx;
+  margin: 0 auto;
+  padding-bottom: 15rpx;
+}
+.discover{
+  height: 100%;
+  width: 100%;
+  background-color: #ebebeb;
+  padding-top:1rpx;
+}
+
+/*解决高度塌陷开始*/
+.clearfix:after{
+    /* 必须设置一个空的congtent,否则不起作用  */ 
+    content: "";
+    /* 转换成块元素  */
+    display: block;
+    clear: both;
+}
+/*为了兼容IE6*/
+.clearfix{zoom:1}
+/*解决高度塌陷结束*/

@@ -1,0 +1,25 @@
+/* pages/cart/cart.wxss */
+.cart{
+  background-color: #E3E3E3;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.cartImg{
+  height: 200rpx;
+  width: 200rpx;
+  margin: 100rpx auto;
+}
+
+.goToHome{
+  background-color: #E64D1A;
+  width: 80%;
+  height: 100rpx;
+  color: white;
+  margin-top: 100rpx;
+}

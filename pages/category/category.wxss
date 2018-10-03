@@ -1,0 +1,44 @@
+@import '/pages/template/list-category.wxss';
+.left{
+  height:100%;
+  width:180rpx;
+  border-right:1px solid #E3E3E3;
+  font-size:30rpx;
+  display:flex;
+  flex-direction:column;
+  line-height:100rpx;
+  position:absolute;
+  overflow-y:scroll;
+  text-align: center;
+}
+/*去除滚动条*/
+.left::-webkit-scrollbar {
+  display: none;
+}
+.leftNav{
+  margin: 0 auto;
+}
+
+.right{
+  width:76%;
+  height:100%;
+  position:absolute;
+  bottom:0;
+  left: 180rpx;
+  overflow-y:scroll;
+}
+/*去除滚动条*/
+.right::-webkit-scrollbar {
+  display: none;
+}
+.categoryImg{
+  height: 100rpx;
+  width: 100rpx;
+}
+.introduce{
+  display: inline-block;
+}
+.active{
+  color: red;
+}
+

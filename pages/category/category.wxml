@@ -1,0 +1,15 @@
+<import src='/pages/template/list-category.wxml'/>
+<view class='left'>
+<block wx:for='{{list}}' wx:key='{{index}}' wx:for-item="itemName">
+<view  bindtap='checkCurrent' class="{{index==active?'active':''}}" data-index='{{index}}' data-current='nav-{{index}}'>{{itemName.name}}</view>
+</block>
+</view>
+<view class='right'>
+<scroll-view scroll-y="true" style='height:100%' scroll-with-animation="true" scroll-into-view='{{toview}}' >
+<view style='padding-top:10rpx;' wx:for='{{list}}' wx:key='{{index}}' id='nav-{{index}}'  wx:for-item="itemName">
+<view  wx:for='{{itemName.content}}'  wx:key='{{index}}'>
+<template is='categoryItem'  data='{{...item}}'></template>
+</view>
+</view>
+</scroll-view >
+</view>

@@ -1,0 +1,40 @@
+<view class='home'>
+<view class='userInfo'>
+<image class='userAvatar' src='{{userInfo.avatarUrl}}'></image>
+<label class='username'>{{userInfo.nickName}}</label>
+<label class='bind'>绑定小米账号</label>
+<image class='qrCode' src='../../static/qdcode.png'></image>
+</view>
+<view class='homeShop'>
+<image class='homeImg' src='../../static/qian.png'></image>
+<view class='homeShopText'>我的小米精选店<label class='homeShopRemark'>(内测)</label></view>
+</view>
+<view class='homeShopList'>
+<button bindgetuserinfo='handleGetUserInfo' class="authorize" style='display:{{showAuthorize?"none":"flex"}}' open-type="getUserInfo">
+<image class='homeImg' src='../../static/dingdan.png'></image>
+<view>授权登录</view>
+</button>
+<view class='ShopListContent'>
+<image class='homeImg' src='../../static/dingdan.png'></image>
+<view class='homeShopText'>我的订单</view>
+</view>
+<view class='ShopListContent'>
+<image class='homeImg' src='../../static/huiyuan.png'></image>
+<view class='homeShopText'>会员中心</view>
+</view>
+<view class='ShopListContent'>
+<image class='homeImg' src='../../static/youhuiquan.png'></image>
+<view class='homeShopText'>我的优惠券</view>
+</view>
+<view class='ShopListContent'>
+<image class='homeImg' src='../../static/dingdan.png'></image>
+<view class='homeShopText'>我的F码</view>
+</view>
+</view>
+<view class='setting'>
+<view class='ShopListContent settingStyle'>
+<image class='homeImg' src='../../static/shezhi.png'></image>
+<view class='homeShopText'>设置</view>
+</view>
+</view>
+</view>

@@ -1,0 +1,6 @@
+<!--pages/cart/cart.wxml-->
+<view class="cart">
+<image class="cartImg" src="../../static/cart.png"></image>
+<text>购物车还是空的</text>
+<button class='goToHome' catchtap='goToHome'>到小米商场逛逛</button>
+</view>

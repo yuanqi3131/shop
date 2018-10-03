@@ -1,0 +1,15 @@
+.title{
+  display:block;
+  text-align:center;
+  margin: 40rpx 0 20rpx 0
+}
+.shop{
+  display: inline-block;
+  width:170rpx;
+  font-size:25rpx;
+  margin: 20rpx -50rpx 0 50rpx;
+}
+.shopImg{
+  height:150rpx;
+  width:150rpx;
+}

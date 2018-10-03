@@ -1,0 +1,104 @@
+
+.home{
+  height: 100%;
+  width: 100%;
+  background-color: #E3E3E3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.userInfo{
+  background-color:white;
+  margin-top:20rpx;
+  height:200rpx;
+}
+.userAvatar{
+  width: 150rpx;
+  height: 150rpx;
+  margin: 30rpx 40rpx 0 20rpx;
+}
+.username{
+  position: absolute;
+  top:60rpx;
+}
+.bind{
+  width:200rpx;
+  font-size:30rpx;
+  background-color:#E3E3E3;
+  display:inline-block;
+  height:50rpx;
+  text-align:center;
+  line-height:50rpx;
+  position:absolute;
+  top:120rpx;
+}
+.qrCode{
+  width: 50rpx;
+  height: 50rpx;
+  float:right;
+  margin:70rpx;
+}
+.homeShop{
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+  margin:20rpx 0;
+  padding: 20rpx 0 0 40rpx;
+  font-size:30rpx;
+}
+
+.homeImg{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 20rpx;
+}
+.homeShopText{
+display:inline-block;
+height:80rpx;
+vertical-align:middle;
+}
+.homeShopRemark{
+  font-size: 25rpx;
+  margin-left:10rpx;
+  color: #8B8386;
+}
+.homeShopList{
+  width: 100%;
+  background-color: white;
+}
+.homeShopList:last-child{
+  border: 0;
+}
+.ShopListContent{
+  width: 90%;
+  height: 80rpx;
+  background-color: white;
+  padding: 20rpx 0 0 20rpx;
+  font-size:30rpx;
+  border-bottom: 1px solid #EBEBEB;
+  margin: 0 20rpx 0 20rpx;
+}
+.setting{
+    width: 100%;
+    height: 80rpx;
+    background-color: white;
+    margin-top: 20rpx;
+}
+.settingStyle{
+  width:100%;
+  margin-left:0rpx;
+  padding-left:40rpx;
+}
+.authorize{
+  height:80rpx;
+  font-size:30rpx;
+  display:flex;
+  margin-left:15rpx;
+  background-color:white;
+margin-left:-30rpx;
+padding-left:70rpx;
+
+}
+.notShowAuthorize{
+  display: none;
+}

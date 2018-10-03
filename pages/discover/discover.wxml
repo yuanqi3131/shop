@@ -1,0 +1,25 @@
+<import src='/pages/template/list-discover.wxml'/>
+<view class='clearfix'>
+<view class='nav'>
+<image class="navImage" src='../../static/xin.png'></image>
+<text>新品预约</text>
+</view>
+<view class='nav'>
+<image class="navImage" src='../../static/huodong.png'></image>
+<text>活动频道</text>
+</view>
+<view class='nav'>
+<image class="navImage" src='../../static/mendian.png'></image>
+<text>线下门店</text>
+</view>
+<view class='nav'>
+<image class="navImage" src='../../static/tuangou.png'></image>
+<text>小米团购</text>
+</view>
+</view>
+<view class='discover'>
+<block wx:for='{{list}}' wx:key='{{index}}'>
+<template is='discoverItem' data='{{...item}}'>
+</template>
+</block>
+</view>
